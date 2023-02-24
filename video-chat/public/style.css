@@ -77,6 +77,7 @@ video{
     flex-direction: column;
     background-color: #242324;
     border-left:1px solid #3D3D42;
+    color:white;
 }
 
 .main_header{
@@ -86,6 +87,7 @@ video{
 
 .main_chat_window{
     flex-grow: 1;
+    overflow-y:scroll;
 }
 .main_message_container{
     padding:1rem;
@@ -99,4 +101,8 @@ video{
     margin-bottom: 0.7rem;
     border: none;
     color: #F5F5F5;
+}
+
+.unmute{
+    color:rgb(222, 46, 46)
 }
